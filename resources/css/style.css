@@ -1,0 +1,79 @@
+
+/*  Global */
+
+html {
+font-size: 18px;
+font-family: helvetica;
+width: auto;
+}
+
+body {
+  width: 960px;
+  object-position: center;
+}
+
+div {
+  border: 1px solid black;
+}
+
+
+
+/*  Logo Bar */
+
+.logo-bar {
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 2.32rem;
+  object-position: center;
+  position: fixed;
+  width: 100%;
+
+}
+
+.logo {
+  display: flex;
+}
+
+.logo img {
+  height: 1.5rem;
+  width: auto;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.logo p {
+  padding: 0.66rem auto;
+  text-transform: capitalize;
+  object-position: center;
+
+}
+
+/*  Header */
+header {
+  background-image: url("../images/moto.jpeg");
+  height: 25rem;
+  z-index: 1;
+}
+
+
+/*  Floating Box */
+
+.caption-box {
+  background-color: black;
+  z-index: 2;
+  width: 20rem;
+  height: auto;
+  font-color: white;
+}
+
+/*  Nav Bar */
+
+/*  Body */
+
+
+
+/*  Footer */
+footer {
+  height: 5rem;
+}
