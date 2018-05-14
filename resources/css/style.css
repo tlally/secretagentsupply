@@ -4,30 +4,58 @@
 html {
 font-size: 18px;
 font-family: helvetica;
-width: auto;
+width: 100%;
+background-color: white;
 }
 
 body {
-  width: 960px;
-  object-position: center;
 }
 
 div {
   border: 1px solid black;
+  display: block;
 }
 
+h1 {
+  font-size: 2rem;
+  font-family: helvetica;
+  font-weight: bold;
 
+}
+
+h2{
+  font-family: helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: white;
+
+
+
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
 
 /*  Logo Bar */
 
 .logo-bar {
   background-color: black;
   color: white;
-  display: flex;
-  height: 2.32rem;
-  object-position: center;
   position: fixed;
   width: 100%;
+  text-transform: uppercase;
+  z-index: 1;
+
+}
+
+.logo-bar .container {
+  padding: .66rem 0 .66rem .5rem;
+  align-items: center;
+  display: flex;
+  height: 2.32rem;
 
 }
 
@@ -38,21 +66,21 @@ div {
 .logo img {
   height: 1.5rem;
   width: auto;
-  padding-left: 0.5rem;
   padding-right: 1rem;
 }
 
 .logo p {
   padding: 0.66rem auto;
   text-transform: capitalize;
-  object-position: center;
 
 }
 
 /*  Header */
 header {
   background-image: url("../images/moto.jpeg");
+  background-size:cover;
   height: 25rem;
+  width: 100%;
   z-index: 1;
 }
 
@@ -61,10 +89,29 @@ header {
 
 .caption-box {
   background-color: black;
-  z-index: 2;
+  z-index: 0;
   width: 20rem;
   height: auto;
-  font-color: white;
+  color: white;
+  padding: 2rem 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 9rem;
+
+
+}
+
+.caption-box h1 {
+  margin-top: 0.25rem;
+
+}
+
+.caption-box h2 {
+
 }
 
 /*  Nav Bar */
