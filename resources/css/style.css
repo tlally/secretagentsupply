@@ -142,7 +142,7 @@ nav ul {
 .showcase {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   margin: 3rem 0 0 0;
 
@@ -177,8 +177,40 @@ nav ul {
 
 /* Contact Us */
 
+.contact-box {
+  margin: 3rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contact {
+  width: 35%;
+
+}
+
+.highlight {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+
+}
+
+.content {
+
+}
 
 /*  Footer */
 footer {
   height: 5rem;
+  background-color: black;
+  color: white;
+  object-position: center;
+  justify-content: center;
+}
+
+.footer {
+  text-align: left
+
 }
