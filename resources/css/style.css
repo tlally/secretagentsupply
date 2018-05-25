@@ -137,6 +137,10 @@ nav ul {
   list-style: none;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /*  Body */
 .showcase {
   display: flex;
@@ -215,3 +219,33 @@ footer.container {
 }
 
 /* Screen Conversions */
+
+/* When the screen is sized less than 1024px, Nav turns to drop down Menu, Main Banner Font Sizes Decrease, Shift to only two products and not 3 */
+
+@media only screen and (max-width: 1024px) {
+  nav ul {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    text-align: center;
+
+  }
+
+  .product {
+    width: 47%
+
+  }
+
+  .contact {
+    width: 35%
+
+  }
+
+
+
+}
+
+@media only screen and (max-width: 470px) {
+
+}
